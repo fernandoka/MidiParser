@@ -6,19 +6,6 @@
 static FILE *fd;
 static midi_file_t file;
 
-/* Examples files */
-/* 
-	midiFiles/Papermoon.mid
-	midiFiles/La_La_Land_-_City_of_Stars.mid
-	midiFiles/Etude_C#m_Op1_nº4_Chopin.mid
-	midiFiles/Etude_No_33.mid
-	midiFiles/Ed_Sheeran_Perfect_Piano_Cover.mid
-	midiFiles/AlanWalker-Alone.mid
-	midiFiles/LinkingPark-InTheEnd.mid
-	midiFiles/Format_0_Example.mid
-
-*/
-
 /* Const variables */
 //static const char *fileName = "midiFiles/La_La_Land_-_City_of_Stars.mid"; 
 static const char *chOfHeaderChunk = "MThd";
