@@ -243,7 +243,7 @@ static bool_t readHeaderChunk(){
 
 	res = ( (file.header.division & ~(0x7fff) ) == 0 );
 
-	if(!res)
+	if(!res || file.header.division == 0)
 		printf("Type of divison it's not supported \n");
 
 	return res;
